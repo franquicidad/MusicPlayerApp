@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/relrhap"
+    tools:context="com.apps.franco.musicplayerapp.Rhapsody">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        style="@style/imrhap"
+        app:srcCompat="@drawable/rhap2" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        style="@style/imlogorhap"
+        app:srcCompat="@drawable/rhapsodylogo" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        style="@style/Linplayrhap">
+
+        <ImageButton
+            android:id="@+id/stoprhapsody"
+            style="@style/rhap1"
+            android:src="@drawable/stop" />
+
+        <ImageButton
+            android:id="@+id/playrhapsody"
+            style="@style/playrhap"
+            app:srcCompat="@drawable/play" />
+
+        <ImageButton
+            android:id="@+id/pauserhapsody"
+            style="@style/pauserhap"
+            app:srcCompat="@drawable/pause" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView5"
+        style="@style/songrhap"
+        android:text="Dark tower of abyss" />
+
+    <TextView
+        android:id="@+id/textView6"
+        style="@style/rhapdes"
+        android:text="@string/DESCRIPTION_ARTIST_LAYOUTS" />
+
+    <Button
+        android:id="@+id/BackRhapsody"
+        style="@style/buttonrhapback"
+        android:text="@string/back_to_artist" />
+
+    <Button
+        android:id="@+id/buyRhapsody"
+        style="@style/buybuttrhap"
+        android:text="@string/buy_this_song" />
+</RelativeLayout>

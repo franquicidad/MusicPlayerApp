@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="com.apps.franco.musicplayerapp.MainActivity">
+
+    <ImageButton
+        android:id="@+id/rock1"
+        style="@style/imagemain"
+        app:srcCompat="@drawable/rockapp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="221dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        style="@style/rock"
+        app:srcCompat="@drawable/rockofagesapp"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="-32dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/textmain1"
+        android:text="@string/Instructions1"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="120dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/textmain2"
+        android:text="@string/instructions2" />
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.apps.franco.musicplayerapp.Purchase"
+    style="@style/relpurchase">
+
+    <TextView
+        android:text="@string/song_purchased"
+        android:id="@+id/textView7"
+        style="@style/textpur1" />
+    <TextView
+        android:text="@string/thankyou"
+        android:id="@+id/textView9"
+        style="@style/textpur2" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        app:srcCompat="@drawable/carritocompras"
+        style="@style/impur" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:text="@string/purchasedes"
+        style="@style/purdes" />
+
+    <Button
+        android:id="@+id/back_to_artist"
+        android:text="@string/back_to_artist"
+        style="@style/butt1" />
+
+    <TextView
+        android:id="@+id/api_description"
+        android:text="@string/PURCHASE_ACTIVITY"
+        style="@style/des_payment"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/back_to_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/api_description"
+        android:layout_alignEnd="@+id/textView8"
+        android:layout_alignRight="@+id/textView8"
+        android:layout_marginEnd="22dp"
+        android:layout_marginRight="22dp"
+        android:text="Back to main"
+        android:textAlignment="textStart" />
+
+
+</RelativeLayout>

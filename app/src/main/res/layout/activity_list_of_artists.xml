@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        style="@style/linlist"
+        tools:context="com.apps.franco.musicplayerapp.ListOfArtists">
+
+        <TextView
+            style="@style/deslist"
+            android:text="@string/deslist" />
+
+        <TextView
+            android:id="@+id/triviumsel"
+            style="@style/text1"
+            android:text="@string/trivium" />
+
+        <TextView
+            android:id="@+id/Rhapsody"
+            style="@style/Groups"
+            android:layout_marginTop="40dp"
+            android:text="@string/rhapsody" />
+
+        <TextView
+            android:id="@+id/killswitch"
+            style="@style/Groups"
+            android:layout_marginTop="40dp"
+            android:text="@string/killswitch_engaged" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                style="@style/imagelist"
+                app:srcCompat="@drawable/rockofagesapp" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+        style="@style/relKill"
+        tools:context="com.apps.franco.musicplayerapp.Killswitch">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            style="@style/Imkills"
+            app:srcCompat="@drawable/killswitch" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            style="@style/kills1"
+            app:srcCompat="@drawable/killswitchlogo" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            style="@style/Linkills">
+
+            <ImageButton
+                android:id="@+id/stopkills"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="110dp"
+                android:src="@drawable/stop" />
+
+            <ImageButton
+                android:id="@+id/playkills"
+                style="@style/imkills1"
+                app:srcCompat="@drawable/play" />
+
+            <ImageButton
+                android:id="@+id/pausekills"
+                style="@style/imkills"
+                app:srcCompat="@drawable/pause" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView5"
+            style="@style/kills2"
+            android:text="Arms of sorrow" />
+
+        <TextView
+            android:id="@+id/textView6"
+            style="@style/textdeskills"
+            android:text="@string/DESCRIPTION_ARTIST_LAYOUTS" />
+
+        <LinearLayout style="@style/linkills2">
+
+            <Button
+                android:id="@+id/BackKills"
+                style="@style/kills3"
+                android:text="@string/back_to_artist" />
+
+            <Button
+                android:id="@+id/BuyKills"
+                style="@style/killsbut"
+                android:text="@string/buy_this_song" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

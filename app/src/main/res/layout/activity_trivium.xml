@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.apps.franco.musicplayerapp.Trivium"
+    android:background="@android:color/black">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/trivium"
+        android:layout_marginBottom="31dp"
+        android:layout_above="@+id/imageView5"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/triviumlogo"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView5"
+        android:layout_centerHorizontal="true"
+        android:text="@string/DESCRIPTION_ARTIST_LAYOUTS"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:paddingLeft="15dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="64dp"
+        android:id="@+id/linearLayout">
+
+        <ImageButton
+            android:id="@+id/stoptrivium"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/stop"
+            android:layout_marginLeft="110dp"/>
+
+        <ImageButton
+            android:id="@+id/playtrivium"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:srcCompat="@drawable/play"
+            android:layout_marginLeft="20dp"/>
+        <ImageButton
+            android:id="@+id/pausetrivium"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            app:srcCompat="@drawable/pause"
+            android:layout_marginLeft="10dp"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:text="@string/triviumsong"
+        android:textColor="@android:color/white"
+        />
+
+    <Button
+        android:id="@+id/BackTrivium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView3"
+        android:layout_marginLeft="45dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="11dp"
+        android:text="@string/back_to_artist" />
+
+    <Button
+        android:id="@+id/BuyTrivium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buy_this_song"
+        android:layout_marginLeft="37dp"
+        android:layout_marginStart="37dp"
+        android:layout_alignBaseline="@+id/BackTrivium"
+        android:layout_alignBottom="@+id/BackTrivium"
+        android:layout_toRightOf="@+id/BackTrivium"
+        android:layout_toEndOf="@+id/BackTrivium" />
+
+</RelativeLayout>

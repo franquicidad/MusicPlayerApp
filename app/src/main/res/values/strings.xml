@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MusicPlayer App</string>
+    <string name="Instructions1">The App to listen to old and New Great Artists!</string>
+    <string name="instructions2">Click on the image below to start!</string>
+    <string name="trivium">Trivium</string>
+    <string name="rhapsody">Rhapsody</string>
+    <string name="killswitch_engaged">Killswitch Engaged</string>
+    <string name="avenged_sevenfold">Avenged Sevenfold</string>
+    <string name="protest_the_hero">Protest the hero</string>
+    <string name="ac_dc">AC/DC</string>
+    <string name="disturbed">Disturbed</string>
+    <string name="triviumsong">Blind Leading the Blind</string>
+    <string name="thunderstruck">Thunderstruck</string>
+    <string name="DESCRIPTION_ACTIVITY_LIST">In this layout the used can select which band they want to listen to giving a click on each of the previous bands</string>
+    <string name="DESCRIPTION_ARTIST_LAYOUTS">In this layout you can play the artist song and also buy the song. Also see a photo of the artist and you will have the option to return to the list of artist.</string>
+    <string name="purchasedes">In this layout the purchase of the song is being confirmed, once you click on purchase song.</string>
+    <string name="thankyou">Thank you for your purchase</string>
+    <string name="back_to_artist">Back to artist</string>
+    <string name="buy_this_song">buy this song</string>
+    <string name="song_purchased">You have purchased this song!</string>
+    <string name="deslist">In this layout you can pick from a list of artist in order to see their history and music</string>
+    <string name="PURCHASE_ACTIVITY">I researched the following page and i will be using Android Pay API for the payment method,this API will enable users to only enter their credit card once in the android pay app.By this users will only put their information once, and will use their payments in every app thay supports Android Pay. https://developers.google.com/android-pay/tutorial</string>
+</resources>

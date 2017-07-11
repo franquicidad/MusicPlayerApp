@@ -1,0 +1,330 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Groups">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:layout_marginLeft">15dp</item>
+    </style>
+
+    <style name="relKill">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">#000000</item>
+    </style>
+
+    <style name="Imkills">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">230dp</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+
+    <style name="kills1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignTop">@+id/textView6</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_marginTop">12dp</item>
+    </style>
+
+    <style name="Linkills">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginBottom">48dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+
+    <style name="imkills">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+    </style>
+
+    <style name="imkills1">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+    </style>
+
+    <style name="kills2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_marginBottom">95dp</item>
+        <item name="android:layout_above">@+id/linearLayout</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="textdeskills">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_below">@+id/imageView6</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginLeft">60dp</item>
+    </style>
+
+    <style name="linkills2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+
+    <style name="kills3">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">40dp</item>
+    </style>
+
+    <style name="killsbut">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">30dp</item>
+    </style>
+
+    <style name="linlist">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">#000000</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="deslist">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">48dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="text1" parent="Groups">
+        <item name="android:layout_marginTop">50dp</item>
+    </style>
+
+    <style name="imagelist">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginBottom">54dp</item>
+    </style>
+
+    <style name="imagemain">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">300dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="rock">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_above">@+id/textView</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginBottom">24dp</item>
+    </style>
+
+    <style name="textmain1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_above">@+id/textView2</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="textmain2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_marginBottom">53dp</item>
+        <item name="android:layout_above">@+id/rock1</item>
+        <item name="android:layout_alignLeft">@+id/imageView</item>
+        <item name="android:layout_alignStart">@+id/imageView</item>
+    </style>
+
+    <style name="relpurchase">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">#000000</item>
+    </style>
+
+    <style name="textpur1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="textpur2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_below">@+id/textView7</item>
+        <item name="android:layout_alignRight">@+id/textView7</item>
+        <item name="android:layout_alignEnd">@+id/textView7</item>
+        <item name="android:layout_marginTop">11dp</item>
+    </style>
+
+    <style name="impur">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_marginBottom">23dp</item>
+        <item name="android:layout_above">@+id/textView7</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="purdes">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginLeft">50dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">46dp</item>
+    </style>
+
+    <style name="backlist">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@+id/textView9</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">65dp</item>
+    </style>
+
+    <style name="relrhap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">#000000</item>
+    </style>
+
+    <style name="imrhap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">200dp</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+
+    <style name="imlogorhap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@+id/imageView6</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">13dp</item>
+    </style>
+
+    <style name="Linplayrhap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginBottom">14dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+
+    <style name="rhap1">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginLeft">110dp</item>
+    </style>
+
+    <style name="playrhap">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+    </style>
+
+    <style name="pauserhap">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+    </style>
+
+    <style name="songrhap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_above">@+id/linearLayout</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginBottom">14dp</item>
+    </style>
+
+    <style name="rhapdes">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@+id/imageView7</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">28dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_marginLeft">60dp</item>
+    </style>
+
+    <style name="buttonrhapback">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@+id/textView6</item>
+        <item name="android:layout_alignLeft">@+id/textView6</item>
+        <item name="android:layout_alignStart">@+id/textView6</item>
+        <item name="android:layout_marginLeft">14dp</item>
+        <item name="android:layout_marginStart">14dp</item>
+    </style>
+
+    <style name="buybuttrhap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@+id/textView6</item>
+        <item name="android:layout_alignRight">@+id/textView6</item>
+        <item name="android:layout_alignEnd">@+id/textView6</item>
+        <item name="android:layout_marginRight">26dp</item>
+        <item name="android:layout_marginEnd">26dp</item>
+    </style>
+
+    <style name="butt1" parent="backlist">
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_below">@+id/textView9</item>
+        <item name="android:layout_alignLeft">@+id/textView8</item>
+        <item name="android:layout_alignStart">@+id/textView8</item>
+        <item name="android:layout_marginLeft">13dp</item>
+        <item name="android:layout_marginStart">13dp</item>
+    </style>
+
+    <style name="des_payment">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_below">@+id/back_to_artist</item>
+        <item name="android:layout_marginLeft">40dp</item>
+        <item name="android:layout_marginRight">40dp</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_marginTop">15dp</item>
+    </style>
+
+</resources>
